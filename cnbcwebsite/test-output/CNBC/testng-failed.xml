@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CNBC]">
+  <test thread-count="5" name="Login Test1(failed)">
+    <classes>
+      <class name="testCases.HomePage">
+        <methods>
+          <include name="appStart"/>
+          <include name="setUp"/>
+          <include name="HomeSetup"/>
+        </methods>
+      </class> <!-- testCases.HomePage -->
+    </classes>
+  </test> <!-- Login Test1(failed) -->
+  <test thread-count="5" name="contact Test1(failed)">
+    <classes>
+      <class name="testCases.ContactPageTest">
+        <methods>
+          <include name="appStart"/>
+          <include name="createNewContactsTest" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.ContactPageTest -->
+    </classes>
+  </test> <!-- contact Test1(failed) -->
+</suite> <!-- Failed suite [CNBC] -->

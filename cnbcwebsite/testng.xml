@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CNBC">
+
+<!-- ************************** This test is to perform login ************************** -->
+	<test name="Login Test">
+		<classes>
+			<class name="testCases.Login" />
+		</classes>
+	</test>
+	
+	<!-- ************************** This test is to perform login ************************** -->
+	<test name="Login Test1">
+		<classes>
+			<class name="testCases.HomePage" />
+		</classes>
+	</test>
+	
+	<!-- ************************** This test is to perform login ************************** -->
+	<test name="contact Test1">
+		<classes>
+			<class name="testCases.ContactPageTest" />
+		</classes>
+	</test>
+		
+
+</suite>
